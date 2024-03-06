@@ -4,4 +4,4 @@
 #![allow(non_snake_case)]
 #![allow(non_upper_case_globals)]
 
-include!(concat!(env!("OUT_DIR"), "/v4l2_bindings.rs"));
+include!("v4l2_bindings.rs");
